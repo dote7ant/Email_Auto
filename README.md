@@ -13,7 +13,7 @@ This project automates the process of sending emails to students who have fallen
 
 1. Clone this repository:
    '''
-   git clone https://github.com/dote7ant/student-outreach-automation.git
+   git clone https://github.com/dote7ant/Email_Auto.git
    '''
 2. Navigate to the project directory:
    '''

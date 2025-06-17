@@ -1,0 +1,14 @@
+{
+  "significantly": {
+    "subject": "Attendance and OTJ Logging - Action Required",
+    "body": "Hi [Apprentice's Name],\n\nI hope you are doing well.  Terry Coach\n\nI am reaching out regarding your engagement with the programme. Our records show that it has been [Number of days] since your last attendance, and you are currently [Number of hours] behind on your Off-the-Job (OTJ) training hours. This places you significantly off track, as both attendance and OTJ logging are key metrics we use to monitor learner engagement.\n\nAs there has been no response to previous messages and no improvement in your engagement, I have copied in [Manager's Name], your apprentice manager, for visibility. We now need to arrange a meeting to discuss how you plan to get back on track. As discussed during the launch meeting, logging OTJ hours on a weekly basis is a mandatory requirement to ensure compliance with government regulations.\n\nYour prompt attention to this matter is appreciated.\n\nYour Coach,"
+  },
+  "moderately": {
+    "subject": "OTJ Logging - Power Hour Session",
+    "body": "Hello [Apprentice's Name],\n\nI hope you are doing well.\n\nOur records show you are currently [No of hours] hours behind on your Off-the-Job (OTJ) training hours. As discussed during the launch meeting, logging OTJ hours on a weekly basis is mandatory to maintain compliance with government regulations.\n\nTo help you get back on track, we've scheduled an OTJ Power Hour session on [Date -- 5 days from today], during which you will log your outstanding hours.\n\n\u2022 Opt-out: If you log all your OTJ hours before the session, you won't need to attend.\n\u2022 Required attendance: If your hours remain outstanding, attendance will be mandatory.\n\nPlease reach out if you have any questions or if you anticipate any difficulty logging your hours before the session.\n\nYour coach,"
+  },
+  "slightly": {
+    "subject": "OTJ Logging Required",
+    "body": "Hello [Apprentice's Name],\n\nI hope you are doing well.\n\nI am reaching out regarding your Off-the-Job (OTJ) training hours. Our records show that you are currently [No of hours] hours behind on your OTJ logging.\n\nAs discussed during the launch meetings, weekly tracking OTJ hours is a key requirement to ensure we remain compliant with government regulations.\n\nTo avoid further escalation, I ask that you log the remaining hours by [date - one week after sending the email]. This will help us stay on track and avoid the need for involvement from the compliance team.\n\nPlease let me know if you need any support with this.\n\nYour coach,"
+  }
+}

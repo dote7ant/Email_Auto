@@ -17,7 +17,7 @@ This project automates the process of sending emails to students who have fallen
    '''
 2. Navigate to the project directory:
    '''
-   cd student-outreach-automation
+   cd Email_Auto
    '''
 3. Install the required dependencies:
    '''

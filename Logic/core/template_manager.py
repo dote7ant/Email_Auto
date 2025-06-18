@@ -77,7 +77,7 @@ Your coach,""",
             return False
 
     def get_template(self, template_name):
-        # et a specific template
+        # get a specific template
         return self.email_templates.get(template_name, {})
 
     def update_template(self, template_name, subject, body):
@@ -102,21 +102,8 @@ Your coach,""",
             return "slightly"
 
     def replace_placeholders(self, text, record):
-        # replace placeholders in email template with actual data
-        replacements = {
-            "[Apprentice's Name]": record.get("name", "Apprentice"),
-            "[App Name]": record.get("name", "Apprentice"),
-            "[Number of hours]": str(record.get("hours_behind", 0)),
-            "[No of hours]": str(record.get("hours_behind", 0)),
-            "[Number of days]": str(record.get("days_absent", 0)),
-            "[Manager's Name]": record.get("manager", "Manager"),
-            "[Date -- 5 days from today]": (
-                datetime.now() + timedelta(days=5)
-            ).strftime("%Y-%m-%d"),
-            "[date - one week after sending the email]": (
-                datetime.now() + timedelta(days=7)
-            ).strftime("%Y-%m-%d"),
-        }
+        # TODO: replace placeholders in email template with actual data
+        replacements = {}
 
         for placeholder, value in replacements.items():
             text = text.replace(placeholder, str(value))

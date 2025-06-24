@@ -50,8 +50,8 @@ Email_Auto/
 **Data Structure**:
 ```python
 {
-    "name": "John Smith",
-    "email": "john@example.com",
+    "name": "old new",
+    "email": "old.new@domain.com",
     "off_the_job": 25,           # Hours behind
     "last_attended": 15,         # Days since last attendance
     "off_track_category": "moderately",

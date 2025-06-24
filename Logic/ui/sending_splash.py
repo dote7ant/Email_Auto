@@ -2,11 +2,11 @@ import customtkinter as ctk
 
 
 class SendingSplash:
-    def __init__(self, parent, on_complete_callback=None):
+    def __init__(self, parent, on_complete_callback=None, title="Sending Emails"):
         self.on_complete = on_complete_callback
 
         self.splash_window = ctk.CTkToplevel(parent)
-        self.splash_window.title("Sending Emails")
+        self.splash_window.title(title)
         self.splash_window.geometry("400x300")
         self.splash_window.resizable(False, False)
 
